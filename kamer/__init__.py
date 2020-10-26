@@ -4,5 +4,5 @@
 
 """ kamer package. """
 
-__version__ = 16
+__version__ = 17
 __txt__ = "straffeloosheid zekerende kamerleden de cel in !!"

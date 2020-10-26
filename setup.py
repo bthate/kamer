@@ -62,7 +62,7 @@ def uploadlist(dir):
 
 setup(
     name='kamer',
-    version='16',
+    version='17',
     url='https://bitbucket.org/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
@@ -70,9 +70,8 @@ setup(
     license='Public Domain',
     zip_safe=False,
     scripts=["bin/kamer",],
-    install_requires=["obj"],
-    packages=['kamer',
-             ],
+    install_requires=["botlib", "olib", "feedparser"],
+    packages=['kamer'],
     long_description = """ 
     Geachte heer <Eerste kamer lid>,
 
