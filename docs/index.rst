@@ -74,4 +74,3 @@ bevestiging
     :hidden:
 
     txt/*
-    LICENSE
