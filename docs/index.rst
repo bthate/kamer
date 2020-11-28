@@ -73,4 +73,5 @@ bevestiging
     :glob:
     :hidden:
 
+    source
     txt/*
