@@ -62,8 +62,8 @@ def uploadlist(dir):
 
 setup(
     name='kamer',
-    version='18',
-    url='https://bitbucket.org/bthate/kamer',
+    version='19',
+    url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
     description=""" Straffeloosheid zekerende kamerleden de cel in !! """,
