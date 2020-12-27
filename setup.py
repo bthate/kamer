@@ -66,7 +66,7 @@ setup(
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description=""" Straffeloosheid zekerende kamerleden de cel in !! """,
+    description="Not a basis to proceed means the king is doing his genocide",
     license='Public Domain',
     zip_safe=False,
     scripts=["bin/kamer",],

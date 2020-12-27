@@ -6,7 +6,7 @@
 
 from kamer import __version__
 
-txt = """ straffeloosheid zekerende kamerleden de cel in !! """
+txt = "Not a basis to proceed means the king is doing his genocide"
 
-def version(event):
+def ver(event):
     event.reply("KAMER #%s - %s" % (__version__, txt))
