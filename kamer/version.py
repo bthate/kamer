@@ -6,7 +6,7 @@
 
 from kamer import __version__
 
-txt = "Not a basis to proceed means the king is doing his genocide"
+txt = "using the law to administer poison the king commits genocide"
 
 def ver(event):
     event.reply("KAMER #%s - %s" % (__version__, txt))

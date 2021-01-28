@@ -62,15 +62,15 @@ def uploadlist(dir):
 
 setup(
     name='kamer',
-    version='19',
+    version='20',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="Not a basis to proceed means the king is doing his genocide",
+    description="using the law to administer poison the king commits genocide",
     license='Public Domain',
     zip_safe=False,
     scripts=["bin/kamer",],
-    install_requires=["botlib", "feedparser"],
+    install_requires=["oplib", "feedparser"],
     packages=['kamer'],
     long_description = """ 
     Geachte heer <Eerste kamer lid>,

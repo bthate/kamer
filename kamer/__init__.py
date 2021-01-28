@@ -4,5 +4,5 @@
 
 """ kamer package. """
 
-__version__ = 19
-__txt__ = "Not a basis to proceed means the king is doing his genocide"
+__version__ = 20
+__txt__ = "using the law to adminster poison the king commits genocide"
