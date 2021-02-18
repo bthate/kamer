@@ -6,7 +6,7 @@
 
 from kamer import __version__
 
-txt = "using the law to administer poison the king commits genocide"
+txt = "OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide !"
 
 def ver(event):
-    event.reply("KAMER #%s - %s" % (__version__, txt))
+    event.reply(txt)
