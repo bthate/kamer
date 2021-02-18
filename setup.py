@@ -66,10 +66,10 @@ setup(
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="using the law to administer poison the king commits genocide",
+    description="OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide !",
     license='Public Domain',
     zip_safe=False,
-    scripts=["bin/kamer",],
+    scripts=["bin/kamer"],
     install_requires=["oplib", "feedparser"],
     packages=['kamer'],
     long_description = """ 
