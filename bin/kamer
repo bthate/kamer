@@ -1,41 +1,31 @@
-#!/usr/bin/env python3
-# OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide
-#
+#!/usr/bin/env python3 
 # This file is placed in the Public Domain.
 
-"console"
+import os, sys ; sys.path.insert(0, os.getcwd())
 
-# imports
+from op.bus import opts
+from op.clt import Console
+from op.trm import exec
+from op.zzz import os, time
 
-from op.run import Console, cfg, exec, parse_cli, os
-
-# defines
-
-cfg.wd = os.path.expanduser("~/.kamer")
-
-# classes
-
-class Console(Console):
-
-    def direct(self, txt):
-        print(txt)
-
-# functions
+from kamer.tbl import tbl
 
 def main():
-    parse_cli()
-    h = Console()
-    h.tablename = "kamer.tbl"
-    h.fromdir(os.path.join(cfg.wd, "mod"))
-    h.load_mod("cli,cmd,irc,usr,ver")
-    h.load_mod(cfg.mods)
-    if cfg.txt:
-        return h.cmd(cfg.otxt)
-    if cfg.op("c"):
-        h.start()
-        h.init(cfg.mods)
-        h.wait()
-
-# runtime
+    k = Console()
+    k.prompt = False
+    k.tbl(tbl)
+    k.cfg.name = "kamer"
+    k.cfg.version = 7
+    k.parse()
+    k.scan(os.path.join(os.getcwd(), "mod"))
+    k.scan("kamer")
+    if k.cfg.txt:
+        k.run()
+        return
+    if opts("c"):
+        k.prompt = True
+        k.start()
+        k.init(k.cfg.mods)
+        k.wait()
 
 exec(main)
