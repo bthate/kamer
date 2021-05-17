@@ -62,7 +62,7 @@ def uploadlist(dir):
 
 setup(
     name='kamer',
-    version='20',
+    version='23',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate@dds.nl',
