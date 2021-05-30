@@ -74,7 +74,6 @@ setup(
     zip_safe=False,
     scripts=["bin/kamer"],
     install_requires=["botlib"],
-    packages=['kamer'],
     long_description=read(),
     data_files=[("docs", ["docs/conf.py","docs/index.rst"]),
                (j('docs', 'jpg'), uploadlist(os.path.join("docs","jpg"))),
