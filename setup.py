@@ -1,48 +1,11 @@
 #!/usr/bin/env python3
+# OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide
 #
-#
+# This file is placed in the Public Domain.
 
 import os
-import sys
-import os.path
 
-def j(*args):
-    if not args: return
-    todo = list(map(str, filter(None, args)))
-    return os.path.join(*todo)
-
-if sys.version_info.major < 3:
-    print("you need to run kamer with python3")
-    os._exit(1)
-
-try:
-    use_setuptools()
-except:
-    pass
-
-try:
-    from setuptools import setup
-except Exception as ex:
-    print(str(ex))
-    os._exit(1)
-
-target = "kamer"
-upload = []
-
-def uploadfiles(dir):
-    upl = []
-    if not os.path.isdir(dir):
-        print("%s does not exist" % dir)
-        os._exit(1)
-    for file in os.listdir(dir):
-        if not file or file.startswith('.'):
-            continue
-        d = dir + os.sep + file
-        if not os.path.isdir(d):
-            if file.endswith(".pyc") or file.startswith("__pycache"):
-                continue
-            upl.append(d)
-    return upl
+from setuptools import setup
 
 def uploadlist(dir):
     upl = []
@@ -57,7 +20,6 @@ def uploadlist(dir):
             if file.endswith(".pyc") or file.startswith("__pycache"):
                 continue
             upl.append(d)
-
     return upl
 
 def read():
@@ -65,24 +27,17 @@ def read():
 
 setup(
     name='kamer',
-    version='24',
+    version='26',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
-    author_email='bthate@dds.nl',
-    description="https://genocide.rtfd.io  otp.informationdesk@icc-cpi.int OTP-CR-117/19",
+    author_email='bthate67@gmail.com',
+    description="EM_T04_OTP-CR-117_19 prosecute king netherlands http://genocide.rtfd.io",
     license='Public Domain',
     zip_safe=True,
-    scripts=["bin/kamer"],
-    package=["kamer"],
-    py_modules=["ob"],
+    scripts=["bin/evrm"],
     long_description=read(),
-    data_files=[("docs", ["docs/conf.py","docs/index.rst"]),
-               (j('docs', 'jpg'), uploadlist(os.path.join("docs","jpg"))),
-               (j('docs', 'txt'), uploadlist(os.path.join("docs", "txt"))),
-               (j('docs', '_templates'), uploadlist(os.path.join("docs", "_templates")))
-              ],
-    package_data={'': ["*.crt"],
-                 },
+    include_package_data=True,
+    data_files=[("share/doc/kamer", uploadlist("docs"))],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: Public Domain',
