@@ -55,4 +55,5 @@ bevestiging
     :glob:
     :hidden:
 
+    *
     txt/*
