@@ -34,6 +34,7 @@ setup(
     description="EM_T04_OTP-CR-117_19 prosecute king netherlands http://genocide.rtfd.io",
     license='Public Domain',
     zip_safe=True,
+    py_modules=["obj", "run"],
     scripts=["bin/evrm"],
     long_description=read(),
     include_package_data=True,
