@@ -2,5 +2,5 @@
 
 __version__ = 27
 
-def version(event):
+def ver(event):
     event.reply("KAMER %s" % __version__)
