@@ -7,10 +7,8 @@
 import random
 import time
 
-from .bus import Bus
-from .evt import Event
-from .obj import Object, get, items, keys
-from .tms import Repeater, elapsed
+from run import Bus, Event, Repeater, elapsed
+from obj import Object, get, items, keys
 
 source = "https://github.com/bthate/genocide"
 startdate = "2018-10-05 00:00:00"
