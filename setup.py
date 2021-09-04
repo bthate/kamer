@@ -27,7 +27,7 @@ def read():
 
 setup(
     name='kamer',
-    version='26',
+    version='28',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate67@gmail.com',
@@ -35,7 +35,7 @@ setup(
     license='Public Domain',
     zip_safe=True,
     py_modules=["obj", "run"],
-    scripts=["bin/evrm"],
+    scripts=["bin/kamer"],
     long_description=read(),
     include_package_data=True,
     data_files=[("share/doc/kamer", uploadlist("docs"))],
