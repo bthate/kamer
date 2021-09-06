@@ -27,15 +27,15 @@ def read():
 
 setup(
     name='kamer',
-    version='28',
+    version='29',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate67@gmail.com',
-    description="EM_T04_OTP-CR-117_19 prosecute king netherlands http://genocide.rtfd.io",
+    description="EM_T04_OTP-CR-117_19 - prosecute king netherlands for genocide - http://genocide.rtfd.io",
     license='Public Domain',
     zip_safe=True,
-    py_modules=["obj", "run"],
     scripts=["bin/kamer"],
+    packages=["kamer"],
     long_description=read(),
     include_package_data=True,
     data_files=[("share/doc/kamer", uploadlist("docs"))],

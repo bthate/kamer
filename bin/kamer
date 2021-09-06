@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # This file is placed in the Public Domain.
 
-import os, sys ; sys.path.insert(0, os.getcwd())
+__version__ = 29
 
 import importlib
 import os
@@ -11,9 +11,9 @@ import sys
 import termios
 import time
 
-from obj import RunCfg, Object, fmt, keys, save
-from run import Client, Runtime, Table, elapsed, find, fntime, get_exception
-from run import listfiles, spl
+from kamer.obj import RunCfg, Object, fmt, keys, save
+from kamer.run import Client, Runtime, Table, elapsed, find, fntime, get_exception
+from kamer.run import listfiles, spl
 
 
 RunCfg.wd = os.path.expanduser("~/.kamer")
@@ -101,10 +101,15 @@ tbl = Table()
 def cmd(event):
     event.reply(",".join(tbl.modnames))
 
+
+def ver(event):
+    event.reply("KAMER %s" % __version__)
+    
+
 def main():
-    from run import __version__
     k.boot()
     tbl.add(cmd)
+    tbl.add(ver)
     if RunCfg.verbose:
         k.log("KAMER %s" % __version__)
         k.log(fmt(RunCfg, ["bork","console","daemon","debug","verbose","wd"]))
