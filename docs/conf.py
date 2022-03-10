@@ -56,10 +56,10 @@ show_authors = True
 pygments_style = 'sphinx'
 modindex_common_prefix = [""]
 keep_warnings = True
-html_theme = "haiku"
-#html_theme_options = {
-#     "nosidebar": True,
-#}
+html_theme = "bizstyle"
+html_theme_options = {
+     "nosidebar": True,
+}
 html_theme_path = []
 html_short_title = "KAMER %s" % __version__
 html_favicon = "jpg/aes.ico"
