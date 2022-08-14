@@ -1,7 +1,7 @@
+.. _home:
+
 .. title:: the king of the netherlands commits genocide
 
-.. image:: jpg/bewijsgif4.jpg
-    :width: 100%
 
 Geachte heer Aardema,
 

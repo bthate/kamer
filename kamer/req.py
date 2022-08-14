@@ -2,15 +2,12 @@
 #
 # EM_T04_OTP-CR-117_19 otp.informationdesk@icc-cpi.int https://genocide.rtfd.io
 
-"""
-| EM_T04_OTP-CR-117_19 - prosecute the king and members of the chamber for three genocide crimes mentioned !!
+"""| **Information and Evidence Unit**
+| **Office of the Prosecutor**
+| **Post Office Box 19519**
+| **2500 CM The Hague**
+| **The Netherlands**
 |
-| Information and Evidence Unit
-| Office of the Prosecutor
-| Post Office Box 19519
-| 2500 CM The Hague
-| The Netherlands
-| or sent by email to otp.informationdesk@icc-cpi.int
 
 Hello Office of the Prosecutor,
 

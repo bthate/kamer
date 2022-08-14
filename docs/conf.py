@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 
-__version__ = 26
+__version__ = 40
 
 import unittest
 import doctest
@@ -82,20 +82,25 @@ intersphinx_mapping = {
                        'sphinx': ('http://sphinx.pocoo.org/', None),
                       }
 intersphinx_cache_limit=1
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    'papersize': 'letterpaper',
+rst_prolog = """.. image:: bewijsgif4.jpg
+    :height: 2.2cm
+    :width: 100%
+    :target: index.html
+    
+.. title:: Prosecutor. Court, Reconsider OTP-CT-117/19.
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    'pointsize': '10pt',
+""" 
 
-    # Additional stuff for the LaTeX preamble.
-    #
-    'preamble': '',
+rst_epilog = """.. raw:: html
 
-    # Latex figure (float) alignment
-    #
-    'figure_align': 'htbp',
-}
+    <br>
+    <center><b>
+
+
+:ref:`home <home>` - :ref:`source <source>`
+
+
+.. raw:: html
+
+    </b></center>
+"""
