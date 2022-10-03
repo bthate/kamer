@@ -15,7 +15,7 @@ def open(txt):
         pass
 
 def main():
-    open("dev/clean")
+    open("bin/clean")
     for line in os.popen("python3 setup.py sdist").readlines():
         print(line.strip())
     open("python3 -mvirtualenv -p python3 env")
