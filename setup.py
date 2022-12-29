@@ -30,11 +30,11 @@ def uploadlist(dir):
 
 setup(
     name='kamer',
-    version='40',
+    version='41',
     url='https://github.com/bthate/kamer',
     author='Bart Thate',
     author_email='bthate67@gmail.com',
-    description="Prosecutor. Court. Reconsider OTP-CR-117/19.",
+    description="@KarimKhanQC reconsider OTP-CR-117/19",
     license='Public Domain',
     zip_safe=True,
     scripts=["bin/kamer"],

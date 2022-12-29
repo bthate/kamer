@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 #
 
-__version__ = 40
+
+__version__ = "41"
+
 
 import unittest
 import doctest
