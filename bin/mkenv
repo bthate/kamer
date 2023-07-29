@@ -7,10 +7,11 @@
 "environment"
 
 
-__author__ = "Bart Thate <skullbonesandnumber@gmail.com>"
-
-
 import os
+import sys
+
+
+NAME = sys.args[1].split(os.sep)[-1]
 
 
 os.environ["PATH"] += ":bin"
@@ -21,7 +22,6 @@ def popen(txt):
         print(line.strip())
 
 
-name = "evrm"
 
 
 if not os.path.exists("dist"):

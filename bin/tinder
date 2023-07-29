@@ -20,18 +20,18 @@ import _thread
 sys.path.insert(0, os.getcwd())
 
 
-from evrm.bus     import Bus
-from evrm.command import Command, scan
-from evrm.verror   import Error
-from evrm.object  import Object
-from evrm.parser  import parse
-from evrm.reactor import Reactor
-from evrm.run     import Cfg
-from evrm.thread  import launch
-from evrm.utils   import laps
+from kamer.bus     import Bus
+from kamer.command import Command, scan
+from kamer.error   import Error
+from kamer.object  import Object
+from kamer.parser  import parse
+from kamer.reactor import Reactor
+from kamer.run     import Cfg
+from kamer.thread  import launch
+from kamer.utils   import laps
 
 
-import evrm.modules as modules
+import kamer.modules as modules
 
 
 DATE = time.ctime(time.time()).replace("  ", " ")
