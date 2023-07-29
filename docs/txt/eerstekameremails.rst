@@ -1,6 +1,16 @@
 .. _emails:
 
-EERSTE KAMER EMAILS
+
+.. raw:: html
+
+    <br>
+
+EMAILS
+######
+
+.. raw:: html
+
+    <br>
 
 | postbus@eerstekamer.nl 
 | marcus.aardema@eerstekamer.nl  

@@ -8,11 +8,6 @@
 
 
 import os
-import sys
-
-
-NAME = sys.args[1].split(os.sep)[-1]
-
 
 
 os.environ["PATH"] += ":bin"

@@ -1,10 +1,10 @@
 .. _home:
 
 
+
 .. raw:: html
 
-   <br><br>
-
+   <br>
 
 .. title:: the king of the netherlands commits genocide
 

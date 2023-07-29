@@ -3,15 +3,23 @@
 
 .. raw:: html
 
-    <br><br>
+    <br>
 
 
 .. title:: Manual
 
+
+manual
+######
+
+.. raw:: html
+
+    <br>
+
     
 **NAME**
 
- | ``KAMER`` - ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE
+ | ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE
 
 
 **SYNOPSIS**

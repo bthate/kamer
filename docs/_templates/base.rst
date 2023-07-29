@@ -2,7 +2,7 @@
 
 .. raw:: html
 
-    <br><br>
+    <br>
 
 .. title:: {{ fullname }}
 
@@ -17,7 +17,7 @@
 
     </h3>
     </center>
-    <br><br>
+    <br>
 
 
 .. auto{{ objtype }}:: {{ fullname }}
@@ -27,4 +27,4 @@
 
     .. raw:: html
 
-        <br><br>
+        <br>

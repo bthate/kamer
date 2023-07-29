@@ -112,10 +112,15 @@ rst_prolog = '''.. image:: bewijsgif4.jpg
     :width: 100%
     :target: index.html
 
-
-.. raw::: html
+.. raw:: html
 
     <br><br>
+    <center>
+    <i>
+    ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE 
+    </i>
+    </center>
+
 '''
 
 rst_epilog = '''.. raw:: html

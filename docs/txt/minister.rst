@@ -1,7 +1,21 @@
+.. _minister:
+
+
+.. raw:: html
+
+    <br>
+
+
 .. title:: Gif toedienende artsen de cel in !!
 
-.. image:: ../jpg/bewijsgif4.jpg
-    :width: 100%
+
+minister-president
+##################
+
+
+.. raw:: html
+
+    <br>
 
 Geachte Minister-President,
 
