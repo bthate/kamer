@@ -1,6 +1,3 @@
-.. title:: De gif toedieningen zijn de foltering !!
-
-
 {{ fullname }}
 {{ underline }}
 

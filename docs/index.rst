@@ -1,7 +1,21 @@
 .. _home:
 
+
+.. raw:: html
+
+   <br><br>
+
+
 .. title:: the king of the netherlands commits genocide
 
+
+brief
+=====
+
+
+.. raw:: html
+
+   <br>
 
 Geachte heer Aardema,
 
@@ -42,8 +56,17 @@ Bart Thate
 p.s. de commissies VWS en J&V van uw kamer zijn ook geinformeerd maar uw persoonlijk ook op de hoogte brengen voordat men hier over stemt verdient de voorkeur.
 
 
+.. raw:: html
+
+   <br>
+
 bevestiging
 ===========
+
+
+.. raw:: html
+
+   <br><br>
 
 .. image:: jpg/bevestigd3.jpg
     :width: 100%

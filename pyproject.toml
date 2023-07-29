@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[options]
+zip_safe = true
+include_package_data = true
+
+
+[project]
+name = "kamer"
+description = "ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE"
+version = "50"
+authors = [
+    {name = "Bart Thate", email = "bthate@dds.nl" },
+]
+readme = "README.rst"
+license = { text="Public Domain"}
+classifiers = [ 
+               'Development Status :: 3 - Alpha',
+               'License :: Public Domain',
+               'Operating System :: Unix',
+               'Programming Language :: Python',
+               'Topic :: Utilities'
+              ]
+
+
+
+[project.urls]
+"home" = "https://pypi.org/project/kamer"
+"bugs" = "https://github.com/bthate/kamer/issues"
+"source" = "https://github.com/bthate/kamer"
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+kamer = "kamer.__main__:wrapped"
+
+
+[tool.setuptools]
+packages = [
+            "kamer",
+            "kamer.modules"
+           ]
+zip-safe = true
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ""
+testpaths = ["test"]
