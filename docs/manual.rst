@@ -9,17 +9,22 @@
 .. title:: Manual
 
 
+.. raw:: html
+
+    <center>
+
 manual
 ######
 
 .. raw:: html
 
+    </center>
     <br>
 
     
 **NAME**
 
- | ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE
+ | kamer - Reconsider OTP-CR-117/19
 
 
 **SYNOPSIS**

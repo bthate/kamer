@@ -1,21 +1,25 @@
 .. _home:
 
 
-
 .. raw:: html
 
-   <br>
+    <br>
+
 
 .. title:: the king of the netherlands commits genocide
 
 
-brief
-=====
+.. raw:: html
 
+    <center>
+
+kamer
+#####
 
 .. raw:: html
 
-   <br>
+    </center>
+    <br>
 
 Geachte heer Aardema,
 
@@ -63,6 +67,7 @@ p.s. de commissies VWS en J&V van uw kamer zijn ook geinformeerd maar uw persoon
 .. raw:: html
 
    <br>
+
 
 bevestiging
 ===========

@@ -8,11 +8,16 @@
 .. title:: About
 
 
+.. raw:: html
+
+    <center>
+
 about
 #####
 
 .. raw:: html
 
+    </center>
     <br>
 
 In 2018 in informed the First Chamber of the Netherlands that antipsychotics
