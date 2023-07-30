@@ -90,7 +90,7 @@ zip-safe = true
                           "docs/txt/advocatenemails.4",
                           "docs/txt/beuker2.rst",
                           "docs/txt/beuker.rst",
-                          "docs/txt/bewijsgif5.jpg",
+                          "docs/txt/bewijsgif4.jpg",
                           "docs/txt/bewijsgif.rst",
                           "docs/txt/bijwerkingen.rst",
                           "docs/txt/chronologisch.rst",
@@ -112,10 +112,10 @@ zip-safe = true
                           "docs/txt/ontwenning.rst",
                           "docs/txt/pvp.rst",
                           "docs/txt/strafbaar2.rst",
-                          "docs/txt/strafbaar",
+                          "docs/txt/strafbaar.rst",
                           "docs/txt/uitspraak.rst",
                           "docs/txt/urls.rst",
-                          "docs/txt/zyprest.rst"
+                          "docs/txt/zyprexa.rst"
                          ]
 
 

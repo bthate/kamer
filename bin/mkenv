@@ -11,7 +11,7 @@ import os
 import sys
 
 
-NAME = sys.argv[0].split(os.sep)[-1]
+NAME = "kamer"
 
 
 os.environ["PATH"] += ":bin"
@@ -29,4 +29,4 @@ if not os.path.exists("dist"):
 
 
 popen("python3 -mvirtualenv --system-site-packages env")
-popen("env/bin/pip3 install %s -f dist --upgrade" % name)
+popen("env/bin/pip3 install %s -f dist --upgrade" % NAME)

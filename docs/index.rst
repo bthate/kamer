@@ -24,7 +24,11 @@ ik wil u graag informeren dat uw commissies van VWS en J&V geinformeerd zijn dat
 Er is bewijs dat de medcijnen gebruikt in de GGZ gif zijn, bewijs dat geleverd word door het ECHA agentschap van de Europeese Unie, wat bij houd welke chemicalien een gevaar zijn of niet. De ECHA laat bedrijven die stoffen willen transporteren testen doen wat hun dodelijkheid betreft, de zogenoemde LD-50 tests. Aan de hand van deze tests beoordeelt men dan of een stof onschadelijk, schadelijk, gif of dodelijk zijn. Deze tests resulteren in labels die men moet gebruiken als men de stof transporteert.
 
 
-Voor de stof haloperiodol, de werkzame stof in Haldol, ziet u hier de waarschuwingen die te vinden zijn op https://echa.europa.eu/substance-information/-/substanceinfo/100.000.142
+Voor de stof haloperiodol, de werkzame stof in Haldol, ziet u hier de waarschuwingen die te vinden zijn op:
+
+
+https://echa.europa.eu/substance-information/-/substanceinfo/100.000.142
+
 
 Haldol is het meest gebruikt medicijn als "nood medicatie" in de GGZ, een klassiek antipsychoticum.
 
