@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "kamer"
 description = "ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE"
-version = "50"
+version = "51"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
 ]

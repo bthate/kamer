@@ -9,7 +9,7 @@
 
 
 NAME = "kamer"
-VERSION = "50"
+VERSION = "51"
 
 
 import os
