@@ -24,7 +24,7 @@ manual
     
 **NAME**
 
- | kamer - Reconsider OTP-CR-117/19
+ ``KAMER`` - Reconsider OTP-CR-117/19
 
 
 **SYNOPSIS**

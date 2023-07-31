@@ -9,6 +9,7 @@
 .. title:: the king of the netherlands commits genocide
 
 
+
 .. raw:: html
 
     <center>
@@ -16,10 +17,12 @@
 kamer
 #####
 
+
 .. raw:: html
 
     </center>
     <br>
+
 
 Geachte heer Aardema,
 

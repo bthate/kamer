@@ -37,8 +37,11 @@ kamer
     kamer.command  commands
     kamer.error	   errors
     kamer.event	   events
+    kamer.json     decoder/encoder
+    kamer.locks    locking
     kamer.object   clean namespace
     kamer.parser   parsing
+    kamer.persist  persistence
     kamer.reactor  reacting
     kamer.repeater repeating 
     kamer.thread   threading
