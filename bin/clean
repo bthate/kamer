@@ -11,7 +11,11 @@ import os
 import sys
 
 
-SKIP = ["env",]
+CWD = os.getcwd()
+NAME = CWD.split(os.sep)[-2]
+
+
+SKIP = ["env", ".git"]
 
 
 def loop(path, txt):
