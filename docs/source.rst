@@ -18,11 +18,11 @@ source
 
 .. raw:: html
 
-     </center>
+    </center>
+    <br>
 
 
-kamer
-=====
+**kamer**
 
 .. raw:: html
 
@@ -53,8 +53,7 @@ kamer
      <br>
 
 
-modules
-=======
+**modules**
 
 .. raw:: html
 

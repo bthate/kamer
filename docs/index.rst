@@ -9,19 +9,18 @@
 .. title:: the king of the netherlands commits genocide
 
 
-
 .. raw:: html
 
     <center>
 
-kamer
-#####
-
+evrm
+####
 
 .. raw:: html
 
     </center>
     <br>
+
 
 
 Geachte heer Aardema,
