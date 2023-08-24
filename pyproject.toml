@@ -31,16 +31,13 @@ classifiers=[
 dev = []
 
 
-[project.scripts]
-kamer = "kamer.__main__:wrapped"
-
-
 [tool.setuptools]
 packages = [
             "kamer",
             "kamer.modules"
            ]
 zip-safe = true
+script-files = ["bin/kamer"]
 
 
 [tool.setuptools.data-files]
