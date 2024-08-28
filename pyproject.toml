@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kamer"
-description = "ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE"
-version = "52"
+description = "Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten"
+version = "60"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
 ]
@@ -19,6 +19,13 @@ classifiers=[
              'Programming Language :: Python',
              'Topic :: Utilities'
             ]
+
+
+[project.scripts]
+"kamer"  = "kamer.__main__:wrapped"
+"kamerc" = "kamer.prompt:wrapped"
+"kamerd" = "kamer.daemon:wrapped"
+
 
 
 [project.urls]
@@ -37,7 +44,6 @@ packages = [
             "kamer.modules"
            ]
 zip-safe = true
-script-files = ["bin/kamer"]
 
 
 [tool.setuptools.data-files]

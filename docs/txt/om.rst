@@ -1,7 +1,19 @@
 .. _om:
 
+
+.. raw:: html
+
+    <br>
+    <center>
+
 om
 ==
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 | 1 Mon, 14 Jan 2013 11:48:20 +0000 
 | "Keijzer, N.D. (OM Haarlem-Alkmaar)" <n.d.keijzer@om.nl> 

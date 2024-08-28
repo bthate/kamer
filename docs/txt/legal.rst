@@ -1,10 +1,26 @@
 .. _legaal:
 
-LEGAAL
-######
+
+.. raw:: html
+
+    <br>
+    <center>
+
+legaal
+======
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 gijzeling
-=========
+---------
+
+.. raw:: html
+
+    <br>
 
 * GGZ patienten zonder schuldig bevinding opsluiten is gijzeling.
 
@@ -12,8 +28,13 @@ gijzeling
 
 282a.2 Indien het feit de dood ten gevolge heeft wordt hij gestraft met levenslange gevangenisstraf of tijdelijke van ten hoogste dertig jaren of geldboete van de vijfde categorie.
 
+
 mishandeling
-============
+------------
+.. raw:: html
+
+    <br>
+
 
 * De medicijnen blijken gif te zijn
 
@@ -21,8 +42,13 @@ mishandeling
 
 304.3 indien het misdrijf wordt gepleegd door toediening van voor het leven of de gezondheid schadelijke stoffen.
 
+
 verzwijging
-===========
+-----------
+
+.. raw:: html
+
+    <br>
 
 * De arts informeert de patient niet dat het een gif betreft.
 * De arts verzwijgt het schadelijk karakter van zijn medicijnen.
@@ -31,8 +57,13 @@ verzwijging
 
 174.2 Indien het feit iemands dood ten gevolge heeft, wordt de schuldige gestraft met levenslange gevangenisstraf of tijdelijke van ten hoogste dertig jaren of geldboete van de vijfde categorie.
 
+
 moord
-=====
+-----
+
+.. raw:: html
+
+    <br>
 
 * Als de medicijnen dodelijke aandoeningen kunnen veroorzaken noem ik het medicijn dodelijk. Dodelijke stof toedienen is een misdrijf tegen het leven gericht.
 

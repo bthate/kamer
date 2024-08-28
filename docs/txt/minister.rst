@@ -9,13 +9,18 @@
 .. title:: Gif toedienende artsen de cel in !!
 
 
-minister-president
-##################
+.. raw:: html
 
+    <center>
+
+minister-president
+==================
 
 .. raw:: html
 
+    </center>
     <br>
+
 
 Geachte Minister-President,
 

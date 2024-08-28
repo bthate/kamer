@@ -1,7 +1,18 @@
 .. eerste:
 
-EERSTE
-######
+
+.. raw:: html
+
+    <br>
+    <center>
+
+eerste
+======
+
+.. raw:: html
+
+    </center>
+    <br>
 
     Geachte leden van de Eerste Kamer de Staten Generaal,
 

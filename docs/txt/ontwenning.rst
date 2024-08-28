@@ -1,7 +1,19 @@
 .. _ontwenning:
 
+
+.. raw:: html
+
+    <br>
+    <center>
+
 ontwenning
 ==========
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 Ontwenningsverschijnselen bij antipsychotica:
 

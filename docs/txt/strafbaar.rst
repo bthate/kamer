@@ -1,7 +1,19 @@
 .. _strafbaar:
 
-STRAFBAAR
-#########
+
+.. raw:: html
+
+    <br>
+    <center>
+
+strafbaar
+=========
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 De voorwaarden voor het bestaan van een strafbaar feit zijn:
 

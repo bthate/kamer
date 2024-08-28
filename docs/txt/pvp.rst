@@ -2,8 +2,20 @@
 
 .. _pvp:
 
-PVP
+
+.. raw:: html
+
+    <br>
+    <center>
+
+pvp
 ===
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 Het is voor mij niet mogelijk gebleken om :ref:`aangifte <aangifte>` te doen van mishandeling als de psychiater zijn patient met gif mishandelt:
 

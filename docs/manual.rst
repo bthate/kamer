@@ -1,10 +1,8 @@
 .. _manual:
 
-
 .. raw:: html
 
-    <br>
-
+    <br><br>
 
 .. title:: Manual
 
@@ -14,7 +12,7 @@
     <center>
 
 manual
-######
+======
 
 .. raw:: html
 
@@ -22,161 +20,148 @@ manual
     <br>
 
 
+
 **NAME**
 
- ``KAMER`` - Reconsider OTP-CR-117/19
+    ``KAMER`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten `! <source.html>`_
 
 
 **SYNOPSIS**
 
- ::
+    ::
 
-  kamer <cmd> [key=val] 
-  kamer <cmd> [key==val]
-  kamer [-c] [-d] [-v]
+        kamer  <cmd> [key=val] [key==val]
+        kamerc [-i] [-v]
+        kamerd 
 
 
 **DESCRIPTION**
 
 
- ``KAMER`` is a python3 IRC bot is intended to be programmable  in a
- static, only code, no popen, no user imports and no reading modules from
- a directory, way. It can show genocide and suicide stats of king netherlands
- his genocide into a IRC channel, display rss feeds and log simple text
- messages, source is `here <source.html>`_.
-
+    Op 20 Oktober 2012 heb ik na correspondentie met de Koningin een klacht tegen de Nederland ingedient (Thate tegen Nederland 69389/12). De klacht betrof het falen van de
+    (F)ACT methodiek, de methode die GGZ Nederland gebruikt om vorm te geven aan de wetten die gedwongen behandeling in Nederland mogelijk maken. De uitspraak is niet-ontvankelijk.
 
 
 **INSTALL**
 
- with sudo::
+    ::
 
-  $ python3 -m pip install kamer
+        $ pipx install kamer
+        $ pipx ensurepath
 
- as user::
+        <new terminal>
 
-  $ pipx install kamer
+        $ kamer srv > president.service
+        $ sudo mv *.service /etc/systemd/system/
+        $ sudo systemctl enable kamer --now
 
- or download the tar, see::
-
-  https://pypi.org/project/kamer
+        joins #kamer on localhost
 
 
 **USAGE**
 
+    without any argument the bot does nothing
 
- list of commands::
+    ::
 
-    $ kamer cmd
-    cmd,err,flt,sts,thr,upt
+        $ kamer
+        $
 
- start a console::
+    see list of commands
 
-    $ kamer -c
-    >
+    ::
 
- start additional modules::
+        $ kamer cmd
+        cmd,req,skl,srv
 
-    $ kamer mod=<mod1,mod2> -c
-    >
 
- list of modules::
+    start a console
 
-    $ kamer mod
-    cmd,err,flt,fnd,irc,log,mdl,mod,
-    req, rss,slg,sts,tdo,thr,upt,ver
+    ::
 
- to start irc, add mod=irc when
- starting::
+        $ kamerc
+        >
 
-     $ kamer mod=irc -c
+    start daemon
 
- to start rss, also add mod=rss
- when starting::
+    ::
 
-     $ kamer mod=irc,rss -c
+        $ kamerd
+        $ 
 
- start as daemon::
 
-    $ kamer mod=irc,rss -d
-    $ 
+    show request to the prosecutor
+
+    ::
+
+        $ president req
+        Information and Evidence Unit
+        Office of the Prosecutor
+        Post Office Box 19519
+        2500 CM The Hague
+        The Netherlands
 
 
 **CONFIGURATION**
 
+    irc
 
- *irc*
+    ::
 
- ::
+        $ kamer cfg server=<server>
+        $ kamer cfg channel=<channel>
+        $ kamer cfg nick=<nick>
 
-    $ kamer cfg server=<server>
-    $ kamer cfg channel=<channel>
-    $ kamer cfg nick=<nick>
+    sasl
 
- *sasl*
+    ::
 
- ::
+        $ kamer pwd <nsvnick> <nspass>
+        $ kamer cfg password=<frompwd>
 
-    $ kamer pwd <nsvnick> <nspass>
-    $ kamer cfg password=<frompwd>
+    rss
 
- *rss*
+    ::
 
- ::
-
-    $ kamer rss <url>
-    $ kamer dpl <url> <item1,item2>
-    $ kamer rem <url>
-    $ kamer nme <url< <name>
+        $ kamer rss <url>
+        $ kamer dpl <url> <item1,item2>
+        $ kamer rem <url>
+        $ kamer nme <url> <name>
 
 
 **COMMANDS**
 
+    ::
 
- ::
+        cfg - irc configuration
+        cmd - commands
+        mre - displays cached output
+        pwd - sasl nickserv name/pass
+        req - reconsider
 
-    cmd - commands
-    cfg - irc configuration
-    dlt - remove a user
-    dpl - sets display items
-    ftc - runs a fetching batch
-    fnd - find objects 
-    flt - instances registered
-    log - log some text
-    mdl - genocide model
-    met - add a user
-    mre - displays cached output
-    nck - changes nick on irc
-    now - genocide stats
-    pwd - sasl nickserv name/pass
-    rem - removes a rss feed
-    req - reconsider
-    rss - add a feed
-    slg - slogan
-    thr - show the running threads
-    tpc - genocide stats into topic
+
+**SOURCE**
+
+
+    source is :ref:`here <source>`
 
 
 **FILES**
 
- ::
+    ::
 
-    ~/.local/bin/kamer
-    ~/.local/pipx/venvs/kamer/
-    /usr/local/bin/kamer
-    /usr/local/share/docs/kamer
+        ~/.kamer 
+        ~/.local/bin/kamer
+        ~/.local/bin/kamerc
+        ~/.local/bin/kamerd
+        ~/.local/pipx/venvs/kamer/*
 
 
 **AUTHOR**
 
-
- ::
- 
     Bart Thate <bthate@dds.nl>
 
 
 **COPYRIGHT**
 
- ::
-
-    KAMER is Public Domain.
+    ``KAMER`` is Public Domain.

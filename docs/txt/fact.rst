@@ -1,7 +1,18 @@
 .. _fact:
 
+
+.. raw:: html
+
+    <br>
+    <center>
+
 (f)act
 ======
+
+.. raw:: html
+
+    </center>
+    <br>
 
 Brengt het toedienen van gif levensgevaar, het nalaten de noodzakelijke verpleging te leveren brengt de dood:
 

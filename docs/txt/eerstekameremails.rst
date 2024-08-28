@@ -5,8 +5,18 @@
 
     <br>
 
-EMAILS
-######
+.. raw:: html
+
+    <center>
+
+emails
+======
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 .. raw:: html
 

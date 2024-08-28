@@ -1,7 +1,17 @@
 .. _greffe:
 
+.. raw:: html
+
+    <br>
+    <center>
+
 greffe
 ======
+
+.. raw:: html
+
+    </center>
+    <br>
 
 .. image:: ../jpg/nederland2.jpg
     :width: 100%

@@ -1,7 +1,19 @@
 .. _hogeraad:
 
-hogeraad
-========
+
+.. raw:: html
+
+    <br>
+    <center>
+
+hoogeraad
+=========
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 | 2012/10/22 Info Hoge Raad <info@hogeraad.nl<mailto:info@hogeraad.nl>>
 

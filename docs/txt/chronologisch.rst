@@ -1,7 +1,18 @@
 .. _chronologisch:
 
-CHRONOLOGISCH
-#############
+
+.. raw:: html
+
+    <br>
+    <center>
+
+chronologisch
+=============
+
+.. raw:: html
+
+    </center>
+    <br>
 
 Ik ben Bart Thate, een 49 jarige schizofrenie patient. Het is voor mij niet mogelijk gebleken om :ref:`aangifte <aangifte>` te doen van mishandeling als de psychiater zijn patient met medicijnen mishandelt.
 

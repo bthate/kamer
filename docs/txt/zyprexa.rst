@@ -1,7 +1,18 @@
 .. _zyprexa:
 
-ZYPREXA
-#######
+.. raw:: html
+
+    <br>
+    <center>
+
+zyprexa
+=======
+
+.. raw:: html
+
+    </center>
+    <br>
+
 
 4. MOGELIJKE BIJWERKINGEN
 
