@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kamer"
-description = "Bejaarden en Gehandicapten (Wzd) , Criminelen (Wfz) , Psychiatrische Patienten (WvGGZ)"
-version = "70"
+description = "Bejaarden en Gehandicapten (Wzd), Criminelen (Wfz), Psychiatrische Patienten (WvGGZ)"
+version = "71"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
 ]
