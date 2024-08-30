@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kamer"
-description = "Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten"
-version = "60"
+description = "Bejaarden en Gehandicapten (Wzd) , Criminelen (Wfz) , Psychiatrische Patienten (WvGGZ)"
+version = "70"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
 ]
@@ -23,8 +23,6 @@ classifiers=[
 
 [project.scripts]
 "kamer"  = "kamer.__main__:wrapped"
-"kamerc" = "kamer.prompt:wrapped"
-"kamerd" = "kamer.daemon:wrapped"
 
 
 
@@ -56,7 +54,22 @@ zip-safe = true
                      "docs/robots.txt",
                      "docs/skull.png",
                      "docs/source.rst",
-                     "docs/tochamber.rst"
+                     "docs/tochamber.rst",
+                     "docs/ECHAabilify.png",
+                     "docs/ECHAclozapine.png",
+                     "docs/ECHAhaldol.png",
+                     "docs/ECHAzyprexa.png",
+                     "docs/OTP111.png",
+                     "docs/OTP222.png",
+                     "docs/ack.png",
+                     "docs/bevestigd.jpg",
+                     "docs/evidence.rst",
+                     "docs/guilty.rst",
+                     "docs/informed.jpg",
+                     "docs/kamer2.png",
+                     "docs/reconsider.rst",
+                     "docs/request.rst",
+                     "docs/writings.rst"
                     ]
 
 "share/doc/kamer/jpg" = [
