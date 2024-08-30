@@ -7,32 +7,16 @@
 .. title:: Manual
 
 
-.. raw:: html
-
-    <center>
-
-manual
-======
-
-.. raw:: html
-
-    </center>
-    <br>
-
-
-
 **NAME**
 
-    ``KAMER`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten `! <source.html>`_
+    ``KAMER`` - Bejaarden en Gehandicapten (Wzd), Criminelen (Wfz), Psychiatrische Patienten (WvGGz)
 
 
 **SYNOPSIS**
 
     ::
 
-        kamer  <cmd> [key=val] [key==val]
-        kamerc [-i] [-v]
-        kamerd 
+        kamer req
 
 
 **DESCRIPTION**
@@ -51,93 +35,18 @@ manual
 
         <new terminal>
 
-        $ kamer srv > president.service
-        $ sudo mv *.service /etc/systemd/system/
-        $ sudo systemctl enable kamer --now
-
-        joins #kamer on localhost
-
-
 **USAGE**
-
-    without any argument the bot does nothing
-
-    ::
-
-        $ kamer
-        $
-
-    see list of commands
-
-    ::
-
-        $ kamer cmd
-        cmd,req,skl,srv
-
-
-    start a console
-
-    ::
-
-        $ kamerc
-        >
-
-    start daemon
-
-    ::
-
-        $ kamerd
-        $ 
-
 
     show request to the prosecutor
 
     ::
 
-        $ president req
+        $ kamer req
         Information and Evidence Unit
         Office of the Prosecutor
         Post Office Box 19519
         2500 CM The Hague
         The Netherlands
-
-
-**CONFIGURATION**
-
-    irc
-
-    ::
-
-        $ kamer cfg server=<server>
-        $ kamer cfg channel=<channel>
-        $ kamer cfg nick=<nick>
-
-    sasl
-
-    ::
-
-        $ kamer pwd <nsvnick> <nspass>
-        $ kamer cfg password=<frompwd>
-
-    rss
-
-    ::
-
-        $ kamer rss <url>
-        $ kamer dpl <url> <item1,item2>
-        $ kamer rem <url>
-        $ kamer nme <url> <name>
-
-
-**COMMANDS**
-
-    ::
-
-        cfg - irc configuration
-        cmd - commands
-        mre - displays cached output
-        pwd - sasl nickserv name/pass
-        req - reconsider
 
 
 **SOURCE**
@@ -151,9 +60,6 @@ manual
     ::
 
         ~/.kamer 
-        ~/.local/bin/kamer
-        ~/.local/bin/kamerc
-        ~/.local/bin/kamerd
         ~/.local/pipx/venvs/kamer/*
 
 

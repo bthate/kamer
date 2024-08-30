@@ -34,8 +34,6 @@ source
     :toctree: 
     :template: base.rst
 
-    kamer.cache
-    kamer.config
     kamer.client
     kamer.cmds
     kamer.console
@@ -45,7 +43,6 @@ source
     kamer.errors
     kamer.event
     kamer.fleet
-    kamer.group
     kamer.log
     kamer.main
     kamer.object
@@ -75,11 +72,4 @@ source
     :template: base.rst
 
     kamer.modules.cmd
-    kamer.modules.err
-    kamer.modules.irc
-    kamer.modules.log
-    kamer.modules.mod
     kamer.modules.req
-    kamer.modules.rss
-    kamer.modules.tdo
-    kamer.modules.thr
