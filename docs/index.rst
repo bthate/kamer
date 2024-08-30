@@ -9,19 +9,6 @@
 .. title:: Reconsider OTP-CR-117/19
 
 
-.. raw:: html
-
-    <center>
-
-kamer
-=====
-
-.. raw:: html
-
-    </center>
-    <br>
-
-
 
 Geachte heer Aardema,
 
@@ -71,19 +58,18 @@ p.s. de commissies VWS en J&V van uw kamer zijn ook geinformeerd maar uw persoon
    <br>
 
 
-bevestiging
-===========
-
-
 .. raw:: html
 
    <br><br>
 
+
 .. image:: jpg/bevestigd3.jpg
     :width: 100%
 
+
 .. image:: jpg/bevestigd.jpg
     :width: 100%
+
 
 .. toctree::
     :glob:
